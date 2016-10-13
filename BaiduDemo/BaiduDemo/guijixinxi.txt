@@ -1,0 +1,163 @@
+{
+"code": 1,
+"errmsg": "ok",
+"data": [
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:14:28 AM",
+"satelliteTimeStr": "2016-01-18 9:14",
+"lon": 117134504,
+"lat": 36687649,
+"lonR": 117128378,
+"latR": 36687215,
+"speed": 23,
+"heading": 239,
+"ptType": 2,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:14:46 AM",
+"lon": 117133509,
+"lat": 36687185,
+"lonR": 117127383,
+"latR": 36686751,
+"speed": 22,
+"heading": 237,
+"ptType": 1,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:15:04 AM",
+"lon": 117132382,
+"lat": 36686609,
+"lonR": 117126256,
+"latR": 36686175,
+"speed": 23,
+"heading": 232,
+"ptType": 1,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:15:19 AM",
+"lon": 117131412,
+"lat": 36686130,
+"lonR": 117125286,
+"latR": 36685696,
+"speed": 23,
+"heading": 236,
+"ptType": 1,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:15:34 AM",
+"lon": 117130412,
+"lat": 36685680,
+"lonR": 117124286,
+"latR": 36685246,
+"speed": 23,
+"heading": 240,
+"ptType": 1,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:15:52 AM",
+"lon": 117129271,
+"lat": 36685122,
+"lonR": 117123145,
+"latR": 36684688,
+"speed": 22,
+"heading": 239,
+"ptType": 1,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:16:10 AM",
+"lon": 117128304,
+"lat": 36684654,
+"lonR": 117122178,
+"latR": 36684220,
+"speed": 21,
+"heading": 238,
+"ptType": 1,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:16:19 AM",
+"lon": 117127714,
+"lat": 36684434,
+"lonR": 117121588,
+"latR": 36684000,
+"speed": 16,
+"heading": 281,
+"ptType": 2,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:16:25 AM",
+"lon": 117127502,
+"lat": 36684662,
+"lonR": 117121376,
+"latR": 36684228,
+"speed": 18,
+"heading": 333,
+"ptType": 2,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:16:43 AM",
+"lon": 117126849,
+"lat": 36685569,
+"lonR": 117120723,
+"latR": 36685135,
+"speed": 21,
+"heading": 327,
+"ptType": 1,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:17:04 AM",
+"lon": 117126194,
+"lat": 36686465,
+"lonR": 117120068,
+"latR": 36686031,
+"speed": 24,
+"heading": 326,
+"ptType": 1,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:17:19 AM",
+"lon": 117125467,
+"lat": 36687216,
+"lonR": 117119326,
+"latR": 36686763,
+"speed": 24,
+"heading": 314,
+"ptType": 1,
+"sourceType": 1
+},
+{
+"carId": 22093495,
+"satelliteTime": "Jan 18, 2016 9:17:31 AM",
+"lon": 117124742,
+"lat": 36687616,
+"lonR": 117118601,
+"latR": 36687163,
+"speed": 15,
+"heading": 270,
+"ptType": 2,
+"sourceType": 1
+}
+]
+}

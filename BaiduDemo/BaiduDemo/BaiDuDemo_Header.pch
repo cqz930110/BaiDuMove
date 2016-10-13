@@ -1,0 +1,69 @@
+//
+//  BaiDuDemo_Header.pch
+//  BaiduDemo
+//
+//  Created by apple on 16/10/13.
+//  Copyright © 2016年 zhaozq. All rights reserved.
+//
+
+#ifndef BaiDuDemo_Header_pch
+#define BaiDuDemo_Header_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* BaiDuDemo_Header_pch */
+
+/**
+ *  把是NSNull 类型的值替换成nil
+ *  使用方法：contact.contactPhone = VerifyValue(contactDic[@"send_ContactPhone"]);
+ */
+#define VerifyValue(value)\
+({id tmp;\
+if ([value isKindOfClass:[NSNull class]])\
+tmp = nil;\
+else\
+tmp = value;\
+tmp;\
+})\
+
+
+
+#define TT_RELEASE_SAFELY(__REF) \
+{\
+if (nil != (__REF)) \
+{\
+__REF = nil;\
+}\
+}
+
+//view安全释放
+#define TTVIEW_RELEASE_SAFELY(__REF) \
+{\
+if (nil != (__REF))\
+{\
+[__REF removeFromSuperview];\
+__REF = nil;\
+}\
+}
+
+//释放定时器
+#define TT_INVALIDATE_TIMER(__TIMER) \
+{\
+[__TIMER invalidate];\
+__TIMER = nil;\
+}
+
+/**
+ * NSLog宏，限定仅在Debug时才打印,release不打印，防止拖慢程序运行
+ */
+#ifdef DEBUG
+#define DLog(...) NSLog(__VA_ARGS__)
+#else
+#define DLog(...)
+#endif
+
+
+#define WEAKSELF typeof(self) __weak weakSelf = self;
+
+#define NAVI_TEST_APP_KEY   @"au4sh4VjSU6Gb5XK9y9aAnwbjunKi7j8"  //百度地图
